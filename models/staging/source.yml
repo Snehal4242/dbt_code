@@ -40,4 +40,9 @@ sources:
            - name: c_name
              tests:
                - not_null
-       
+
+    - name: snapshot_tables
+      database: sales
+      schema: snapshot_tables
+      tables:
+        - name: snap_orderdetails
